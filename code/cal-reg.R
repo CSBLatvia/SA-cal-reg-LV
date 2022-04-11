@@ -18,9 +18,6 @@ setDT(TD_Q)
 setDT(WD_M)
 setDT(WD_Q)
 
-setnames(TD_Q, old = 1, new = "date")
-setnames(WD_Q, old = 1, new = "date")
-
 fwrite(x = TD_M, file = "data/TD_M.csv", scipen = 20)
 fwrite(x = TD_Q, file = "data/TD_Q.csv", scipen = 20)
 fwrite(x = WD_M, file = "data/WD_M.csv", scipen = 20)
